@@ -327,6 +327,216 @@
             border-radius: 8px;
         }
 
+        /* About Section */
+        .sec4 {
+            padding: 70px 0 110px 0;
+            background-color: #f9f9f9;
+        }
+
+        .about-container {
+            width: calc(100% - 100px);
+            margin: 0 50px;
+            padding: 50px;
+            background-image: linear-gradient(rgba(9, 250, 230, 0.353), rgba(255, 255, 255, 0.403));
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-heading {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .about-heading h1 {
+            font-size: 40px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .about-heading p {
+            font-size: 20px;
+            color: #7f8c8d;
+        }
+
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+        }
+
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+            max-width: 600px;
+        }
+
+        .about-text p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .about-features {
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+        }
+
+        .feature-item {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-item h3 {
+            color: limegreen;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .feature-item p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Contact Section */
+        .sec5 {
+            padding: 70px 0 110px 0;
+            background-color: #fff;
+        }
+
+        .contact-container {
+            width: calc(100% - 100px);
+            margin: 0 50px;
+            padding: 50px;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.403), rgba(9, 250, 230, 0.353));
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-heading {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .contact-heading h1 {
+            font-size: 40px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .contact-heading p {
+            font-size: 20px;
+            color: #7f8c8d;
+        }
+
+        .contact-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            justify-content: center;
+        }
+
+        .contact-info {
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+        }
+
+        .info-item {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-item h3 {
+            color: limegreen;
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .info-item p {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 8px;
+        }
+
+        .contact-form {
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form h3 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: limegreen;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background-color: limegreen;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .submit-btn:hover {
+            background-color: #32CD32;
+        }
+
         /* Mobile Menu Toggle */
         .menu-toggle {
             display: none;
@@ -433,6 +643,25 @@
             footer p {
                 margin: 0 20px;
             }
+
+            .about-container,
+            .contact-container {
+                margin: 0 20px;
+                padding: 30px 20px;
+            }
+
+            .about-heading h1,
+            .contact-heading h1 {
+                font-size: 28px;
+            }
+
+            .about-text p {
+                font-size: 16px;
+            }
+
+            .contact-content {
+                gap: 30px;
+            }
         }
 
         @media (max-width: 480px) {
@@ -474,6 +703,17 @@
                 margin: 0 10px;
                 padding: 20px 10px;
             }
+
+            .about-container,
+            .contact-container {
+                margin: 0 10px;
+                padding: 20px 10px;
+            }
+
+            .about-text p,
+            .info-item p {
+                font-size: 14px;
+            }
         }
     </style>
 </head>
@@ -494,8 +734,8 @@
                     <li class="nav-item"><a href="index.html">HOME</a></li>
                     <li class="nav-item"><a href="#sec2">SERVICES</a></li>
                     <li class="nav-item"><a href="#sec3">DOCTORS</a></li>
-                    <li class="nav-item"><a href="about">ABOUT</a></li>
-                    <li class="nav-item"><a href="contact">CONTACT</a></li>
+                    <li class="nav-item"><a href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -572,10 +812,10 @@
                 <section class="doctors">
                     <div class="doctor-profile">
                         <div class="profile-image">
-                            <img src="team-21.jpg" alt="Dr. Priya Kumar">
+                            <img src="team-21.jpg" alt="Dr. Priya Sharma">
                         </div>
                         <div class="profile-details">
-                            <h2>Dr. Priya Kumar</h2>
+                            <h2>Dr. Priya Sharma</h2>
                             <p>Specialist in Cardiology</p>
                             <p>Expert cardiologist with extensive experience in treating heart diseases and cardiac conditions.</p>
                             <ul>
@@ -589,10 +829,10 @@
 
                     <div class="doctor-profile">
                         <div class="profile-image">
-                            <img src="team-22.jpg" alt="Dr. Rajesh Sharma">
+                            <img src="team-22.jpg" alt="Dr. Rajesh Kumar">
                         </div>
                         <div class="profile-details">
-                            <h2>Dr. Rajesh Sharma</h2>
+                            <h2>Dr. Rajesh Kumar</h2>
                             <p>Specialist in Pediatrics</p>
                             <p>Dedicated pediatrician providing comprehensive healthcare for children and adolescents.</p>
                             <ul>
@@ -606,10 +846,10 @@
 
                     <div class="doctor-profile">
                         <div class="profile-image">
-                            <img src="team-23.jpg" alt="Dr. Mahesh Desai">
+                            <img src="team-23.jpg" alt="Dr. Anita Desai">
                         </div>
                         <div class="profile-details">
-                            <h2>Dr. Mahesh Desai</h2>
+                            <h2>Dr. Anita Desai</h2>
                             <p>Specialist in Gynecology</p>
                             <p>Experienced gynecologist specializing in women's health and reproductive medicine.</p>
                             <ul>
@@ -706,6 +946,98 @@
                         </div>
                     </div>
                 </section>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="sec4" id="about">
+            <div class="about-container">
+                <div class="about-heading">
+                    <h1>About VitalTrust</h1>
+                    <p>Your trusted healthcare partner</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>VitalTrust is a leading healthcare provider dedicated to delivering exceptional medical services with compassion and excellence. Established with a vision to make quality healthcare accessible to all, we have been serving our community for over two decades.</p>
+                        <p>Our state-of-the-art facilities are equipped with the latest medical technology, and our team of highly qualified doctors and healthcare professionals are committed to providing personalized care to each patient.</p>
+                        <p>We believe in a holistic approach to healthcare, focusing not just on treating illnesses but also on preventive care and wellness programs that help our patients lead healthier lives.</p>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <h3>24/7 Emergency Care</h3>
+                            <p>Round-the-clock emergency services with dedicated trauma care units and ambulance facilities.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>Expert Medical Team</h3>
+                            <p>Highly qualified doctors and specialists with years of experience in their respective fields.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>Advanced Technology</h3>
+                            <p>State-of-the-art medical equipment and diagnostic facilities for accurate and efficient treatment.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>Patient-Centered Care</h3>
+                            <p>Personalized treatment plans focused on individual patient needs and comfort.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="sec5" id="contact">
+            <div class="contact-container">
+                <div class="contact-heading">
+                    <h1>Contact Us</h1>
+                    <p>Get in touch with us</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h3>Location</h3>
+                            <p>VitalTrust Medical Center</p>
+                            <p>123 Healthcare Avenue</p>
+                            <p>Patna, Bihar 800001</p>
+                            <p>India</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Contact Information</h3>
+                            <p><strong>Phone:</strong> +91 612 1234 5678</p>
+                            <p><strong>Emergency:</strong> +91 612 9876 5432</p>
+                            <p><strong>Email:</strong> info@vitaltrust.com</p>
+                            <p><strong>Fax:</strong> +91 612 1234 5679</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Working Hours</h3>
+                            <p><strong>OPD Timing:</strong></p>
+                            <p>Monday - Saturday: 9:00 AM - 8:00 PM</p>
+                            <p>Sunday: 9:00 AM - 2:00 PM</p>
+                            <p><strong>Emergency:</strong> 24/7</p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
